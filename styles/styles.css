@@ -88,6 +88,7 @@ body {
   margin-bottom: 2rem;
   width: 85vw;
   margin: auto;
+  background-color: var(--light-gray-color);
 }
 
 .more-info-content {
@@ -156,6 +157,10 @@ body {
 .container-off {
   background-color: var(--light-gray-color);
   border-radius: 0.5rem;
+}
+
+.footer {
+  text-align: center;
 }
 
 @keyframes wave-animation {
