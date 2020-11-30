@@ -48,29 +48,27 @@ body {
 
 .header-container {
   padding: 4rem 1rem;
-}
-
-.main-header {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  margin-bottom: 10rem;
 }
 
-.main-header-right {
+.header-image {
   max-width: 400px;
 }
 
-.main-header-left {
+.header-content {
   max-width: 500px;
   margin-bottom: 3rem;
 }
 
-.main-header-left > h1 {
+.header-content > h1 {
   font-size: 3rem;
 }
 
-.main-header-left > p {
+.header-content > p {
   font-size: 1.5rem;
   color: #6b7280;
 }
