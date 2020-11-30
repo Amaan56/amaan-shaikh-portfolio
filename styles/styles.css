@@ -56,17 +56,17 @@ body {
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin-bottom: 2rem;
-  width: 85vw;
+  width: 80vw;
   margin: auto;
 }
 
 .image {
-  max-width: 500px;
+  max-width: 400px;
   margin-bottom: 2rem;
 }
 
 .header-content {
-  max-width: 500px;
+  max-width: 400px;
   margin-bottom: 2rem;
 }
 
@@ -86,9 +86,10 @@ body {
   justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 2rem;
-  width: 85vw;
+  width: 80vw;
   margin: auto;
   background-color: var(--light-gray-color);
+  border-radius: 1rem;
 }
 
 .more-info-content {
@@ -124,11 +125,12 @@ body {
 }
 
 .container {
-  width: 85vw;
+  width: 80vw;
   margin: auto;
   text-align: center;
   padding: 2rem;
-  margin: 3rem 0;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 .container > h2 {
   margin-bottom: 1rem;
@@ -165,6 +167,8 @@ body {
   color: var(--secondary-color);
   padding: 1rem;
   border-top-right-radius: 1rem;
+  width: 90vw;
+  margin: auto;
 }
 
 .footer-start {
