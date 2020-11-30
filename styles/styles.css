@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
 * {
@@ -11,7 +11,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   width: 90vw;
   margin: auto;
 }
@@ -19,7 +19,7 @@ body {
 .nav-container {
   background-color: var(--primary-color);
   color: var(--secondary-color);
-  padding: 1rem;
+  padding: 0.8rem;
   border-bottom-left-radius: 1rem;
 }
 
@@ -38,6 +38,74 @@ body {
 
 .nav-link {
   text-decoration: none;
-  padding: 0 1rem;
+  padding: 1rem 1rem;
   color: var(--secondary-color);
+}
+
+.active {
+  font-weight: bold;
+}
+
+.header-container {
+  padding: 4rem 1rem;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.main-header-right {
+  max-width: 400px;
+}
+
+.main-header-left {
+  max-width: 500px;
+  margin-bottom: 3rem;
+}
+
+.main-header-left > h1 {
+  font-size: 3rem;
+}
+
+.main-header-left > p {
+  font-size: 1.5rem;
+  color: #6b7280;
+}
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }
