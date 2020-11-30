@@ -51,6 +51,7 @@ body {
   padding: 4rem 1rem;
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   margin-bottom: 2rem;
   width: 85vw;
   margin: auto;
@@ -58,12 +59,12 @@ body {
 
 .image {
   max-width: 500px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .header-content {
   max-width: 500px;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .header-content > h1 {
@@ -79,6 +80,7 @@ body {
 .more-info {
   padding: 4rem 1rem;
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   margin-bottom: 2rem;
   width: 85vw;
@@ -89,6 +91,7 @@ body {
   max-width: 500px;
   margin-right: 2rem;
   margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 
 .more-info-content > h1 {
