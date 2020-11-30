@@ -1,3 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #1d3557;
+  --secondary-color: #f1faee;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  width: 90vw;
+  margin: auto;
+}
+
+.nav-container {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+}
+
+.nav-brand-logo-text {
+  font-family: 'Yellowtail', cursive;
+}
+
 .nav-list {
   text-align: right;
   list-style: none;
@@ -9,4 +38,6 @@
 
 .nav-link {
   text-decoration: none;
+  padding: 0 1rem;
+  color: var(--secondary-color);
 }
