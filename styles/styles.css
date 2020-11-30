@@ -1,0 +1,12 @@
+.nav-list {
+  text-align: right;
+  list-style: none;
+}
+
+.nav-list-item {
+  display: inline;
+}
+
+.nav-link {
+  text-decoration: none;
+}
