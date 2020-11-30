@@ -46,6 +46,12 @@ body {
   color: var(--secondary-color);
 }
 
+.nav-brand-logo-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-size: 1.5rem;
+}
+
 .active {
   font-weight: bold;
 }
@@ -185,7 +191,11 @@ body {
   padding: 0 1rem;
 }
 
-.footer-list > li > i {
+.footer-icon-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.footer-icon-link > i {
   font-size: 1.2rem;
 }
 
