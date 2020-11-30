@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,400&family=Roboto+Slab:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
 
 * {
@@ -9,10 +10,12 @@
   --primary-color: #1d3557;
   --secondary-color: #f1faee;
   --gray-color: #4b5563;
+  --light-gray-color: #f3f4f6;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto Slab', serif;
   width: 90vw;
   margin: auto;
 }
@@ -131,12 +134,27 @@ body {
 }
 
 .container > p {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   font-weight: normal;
+  color: black;
+}
+
+.container-link {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+}
+
+.container-link-off {
+  background-color: var(--light-gray-color);
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
 }
 
 .container-off {
-  background-color: #f3f4f6;
+  background-color: var(--light-gray-color);
   border-radius: 0.5rem;
 }
 
