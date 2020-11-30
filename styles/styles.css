@@ -8,6 +8,7 @@
 :root {
   --primary-color: #1d3557;
   --secondary-color: #f1faee;
+  --gray-color: #4b5563;
 }
 
 body {
@@ -38,7 +39,7 @@ body {
 
 .nav-link {
   text-decoration: none;
-  padding: 1rem 1rem;
+  padding: 0 1rem;
   color: var(--secondary-color);
 }
 
@@ -49,14 +50,15 @@ body {
 .header-container {
   padding: 4rem 1rem;
   display: flex;
-  align-items: center;
-  justify-content: center;
   flex-wrap: wrap;
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
+  width: 85vw;
+  margin: auto;
 }
 
-.header-image {
-  max-width: 400px;
+.image {
+  max-width: 500px;
+  margin-bottom: 3rem;
 }
 
 .header-content {
@@ -66,13 +68,46 @@ body {
 
 .header-content > h1 {
   font-size: 3rem;
+  margin-bottom: 0.5rem;
 }
 
 .header-content > p {
   font-size: 1.5rem;
-  color: #6b7280;
+  color: var(--gray-color);
 }
 
+.more-info {
+  padding: 4rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+  width: 85vw;
+  margin: auto;
+}
+
+.more-info-content {
+  max-width: 500px;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.more-info-content > h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.more-info-content > p {
+  font-size: 1.2rem;
+  color: var(--gray-color);
+}
+.more-info-content > ul {
+  list-style: none;
+}
+
+.more-info-content > ul > li {
+  font-size: 1rem;
+  color: var(--gray-color);
+}
 .wave {
   animation-name: wave-animation;
   animation-duration: 2.5s;
